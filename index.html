@@ -1510,7 +1510,6 @@ function syncCategoriesToAllMonths() {
     state.defaults.incomes.push({ name: '', plan: '' });
     renderManageTables();
   });
-
 ‏if (saveCats) saveCats.addEventListener('click', () => {
 ‏  saveState(state);
 ‏  syncCategoriesToAllMonths(); // ← כאן הקריאה לפונקציה החדשה
